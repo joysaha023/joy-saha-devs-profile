@@ -1,10 +1,16 @@
 import React from 'react';
 
+
+
 const Root = () => {
+
+    
+
+
     return (
-        <div>
-            <h2>This is root file</h2>
-            
+        <div className='max-w-6xl mx-auto px-2'>
+            <h2>Bavnav</h2>
+
         </div>
     );
 };

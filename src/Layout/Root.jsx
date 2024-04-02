@@ -1,4 +1,7 @@
 import React from 'react';
+import NavBar from '../Pages/NavBar/NavBar';
+
+
 
 
 
@@ -9,7 +12,7 @@ const Root = () => {
 
     return (
         <div className='max-w-6xl mx-auto px-2'>
-            <h2>Header</h2>
+            <NavBar></NavBar>
 
         </div>
     );

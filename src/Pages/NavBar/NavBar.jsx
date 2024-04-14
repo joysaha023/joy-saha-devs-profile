@@ -30,7 +30,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href=""
           className="flex items-center hover:text-blue-500 transition-colors"
         >
           About
@@ -102,7 +102,7 @@ const NavBar = () => {
           variant="h6"
           className="mr-4 cursor-pointer text-xl py-1.5"
         >
-          Joy Saha
+          Joy <span className="text-[#0077be]">Saha</span>
         </Typography>
         <div className="hidden lg:block">
           <NavList />

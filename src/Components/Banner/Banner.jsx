@@ -6,8 +6,8 @@ const Banner = () => {
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content  flex-col lg:flex-row-reverse">
           <img
-            src="https://i.ibb.co/q5JX7Pw/latest.png"
-            className="max-w-sm h-full rounded-lg shadow-2xl"
+            src="https://i.ibb.co/HDTkQ1b/dddd.png"
+            className="relative w-full h-full max-w-[280px] max-h-[280px] md:max-w-[400px] md:max-h-[400px] rounded-[50%] border-2 border-solid border-black"
           />
           <div>
             <h1 className="text-5xl font-bold">Box Office News!</h1>

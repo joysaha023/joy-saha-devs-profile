@@ -8,7 +8,7 @@ const Skills = () => {
 
   return (
     <div className="mt-6">
-      <h2 className="text-4xl font-bold text-center">Technical Skills</h2>
+      <h2 className="text-4xl font-bold text-center">Technical <span className="text-[#0077be]">Skills</span></h2>
       <SkillCard></SkillCard>
 
 

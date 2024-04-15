@@ -2,9 +2,9 @@ import React from "react";
 import { CiCalendar } from "react-icons/ci";
 
 const ProjectCard = ({item}) => {
-    const {name, srcURL, cover, startDate, tags} = item;
+    const {name, srcURL, cover, startDate, tags, summary} = item;
   return (
-    <div className="card w-96 border bg-base-100 shadow-xl">
+    <div className="card w-full border bg-base-100 shadow-xl">
       <figure>
         <img
           src={cover.srcPath}
@@ -17,7 +17,7 @@ const ProjectCard = ({item}) => {
           <CiCalendar />
           <p>{startDate}</p>
         </div>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p>{summary}</p>
         <div className=" flex my-3 gap-2">
           {tags.map((tag) => {
             return (
@@ -27,8 +27,9 @@ const ProjectCard = ({item}) => {
             );
           })}
         </div>
-        <div className="card-actions justify-end">
-          <a href={srcURL} target="blank"><button className="btn btn-primary">Buy Now</button></a>
+        <div className="card-actions justify-between">
+          <a href={srcURL} target="blank"><button className="btn btn-md bg-[#0077be]">Live Demo</button></a>
+          <a href={srcURL} target="blank"><button className="btn btn-outline ">Source code</button></a>
         </div>
       </div>
     </div>

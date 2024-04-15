@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Sunflower",
+      "image": "https://example.com/sunflower.jpg"
+    },
+    {
+      "name": "Mountain",
+      "image": "https://example.com/mountain.jpg"
+    },
+    {
+      "name": "Ocean",
+      "image": "https://example.com/ocean.jpg"
+    },
+    {
+      "name": "Cat",
+      "image": "https://example.com/cat.jpg"
+    },
+    {
+      "name": "Dog",
+      "image": "https://example.com/dog.jpg"
+    },
+    {
+      "name": "Coffee",
+      "image": "https://example.com/coffee.jpg"
+    },
+    {
+      "name": "Laptop",
+      "image": "https://example.com/laptop.jpg"
+    },
+    {
+      "name": "Rose",
+      "image": "https://example.com/rose.jpg"
+    },
+    {
+      "name": "City",
+      "image": "https://example.com/city.jpg"
+    },
+    {
+      "name": "Beach",
+      "image": "https://example.com/beach.jpg"
+    },
+    {
+      "name": "Forest",
+      "image": "https://example.com/forest.jpg"
+    },
+    {
+      "name": "Bird",
+      "image": "https://example.com/bird.jpg"
+    }
+  ]

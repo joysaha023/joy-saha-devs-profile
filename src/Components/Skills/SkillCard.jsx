@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillCard = () => {
   return (
-    <div className="">
+    <div className="mb-6">
     <div className="flex flex-col md:flex-row justify-center gap-6 my-6 items-center">
       <div className="border border-[#89afc6] hover:bg-[#f6f7f7] cursor-pointer rounded-md shadow-md flex flex-col items-center justify-center w-[151px] h-[91px]">
         <img

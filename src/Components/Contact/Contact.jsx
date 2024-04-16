@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosMail } from "react-icons/io";
-import { FaPhoneVolume, FaLocationDot } from "react-icons/fa6";
+import { FaPhoneVolume, FaLocationDot, FaLinkedin, FaXTwitter, FaGithub, FaFacebook  } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -22,6 +22,12 @@ const Contact = () => {
           <div className="flex items-center gap-2">
             <FaLocationDot className="text-2xl " />
             <p>Permanent Address: Brahmanbaria, Chittagong, Bangladesh</p>
+          </div>
+          <div className="flex items-center gap-3 text-2xl text-[#0077be]">
+            <a href="https://www.linkedin.com/in/joysaha23/" target="blank"><FaLinkedin /></a>
+            <a href="https://twitter.com/joysaha023" target="blank"><FaXTwitter /></a>
+            <a href="https://github.com/joysaha023" target="blank"><FaGithub /></a>
+            <a href="https://www.facebook.com/joysaha23" target="blank"><FaFacebook /></a>
           </div>
         </div>
         <div className="flex-1">

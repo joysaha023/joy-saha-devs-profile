@@ -2,6 +2,7 @@ import React from "react";
 import {Bio} from "../../data/constants"
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
+
 const Banner = () => {
  const [text] = useTypewriter({
   words: ['MERN Stack Developer', 'Front-End Developer', 'Web Developer'],
@@ -15,7 +16,7 @@ const Banner = () => {
       <div className="flex flex-col-reverse lg:flex-row justify-between items-center px-2 mt-6">
         <div className="space-y-4">
           <h2 className="text-5xl font-bold">Hi!</h2>
-          <h2 className="text-5xl font-bold">I am <span className=" text-[#0077be]">Joy Saha</span></h2>
+          <h2 className="text-5xl font-bold">I am <span className="text-[#0077be] ">Joy Saha</span></h2>
           <p className="text-xl font-semibold">I am a <span className="text-[#0077be]">
             {text}
             </span><span className="text-[#0077be]"><Cursor></Cursor></span></p>

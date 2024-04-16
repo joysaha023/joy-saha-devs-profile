@@ -30,7 +30,7 @@ const Contact = () => {
             <a href="https://www.facebook.com/joysaha23" target="blank"><FaFacebook /></a>
           </div>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 space-y-6">
           <h2 className="text-2xl">I'd Love to Here From You</h2>
           <form className="flex flex-col space-y-6">
             <input

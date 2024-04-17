@@ -13,6 +13,7 @@ const About = () => {
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center lg:items-start px-4 justify-center">
         <div className="">
           <img
+          
             src="https://i.ibb.co/h1fVqCg/dsd.jpg"
             className=" w-full h-full max-w-[280px] shadow-md max-h-[300px] md:max-w-[300px] rounded-md md:max-h-[400px]  border-2 border-solid border-[#0077be]"
           />

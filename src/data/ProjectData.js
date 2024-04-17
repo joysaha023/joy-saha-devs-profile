@@ -11,7 +11,7 @@ export const projectData = [
     tags: [{ name: "HTML" }, { name: "Raw CSS" },{ name: "JavaScript" }, { name: "Responsive" }],
     startDate: "2023-08-06",
     summary:
-      "A tiny scalar-valued autograd engine and a neural net on top of it. A TypeScript version of the scalar-valued autograd engine and a neural net on top of it. A TypeScript version of the karpathy karpathy/micrograd repo.",
+      "E-ticketing project is all about to online ticketing service where user can chose a destination and select a comfort seat and calculate a ticket price and use a coupon code. Click a Live Demo and enjoy my Project",
     
   },
   {
@@ -26,7 +26,7 @@ export const projectData = [
     tags: [{ name: "React JS" }, { name: "Tailwind CSS" },{ name: "Firebase" }, { name: "Responsive" }],
     startDate: "2023-08-06",
     summary:
-      "A tiny scalar-valued autograd engine and a neural net on top of it. A TypeScript version of the karpathy/micrograd repo.",
+      "HavenHQ is a real estate project where user can find residensial houses appertment and vecation rental houses. this website have a authentication user need to fast login or registered for see the full information about real estate.",
     
   },
   {

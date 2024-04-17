@@ -26,7 +26,7 @@ const ProjectCard = ({item}) => {
             );
           })}
         </div>
-        <p>{summary}</p>
+        <p className="text-base font-normal">{summary}</p>
         <div className="card-actions justify-between">
           <a href={liveURL} target="blank"><button className="btn btn-md rounded-md text-white hover:text-black bg-[#0077be]">Live Demo</button></a>
           <a href={srcURL} target="blank"><button className="btn rounded-md btn-outline ">Source code</button></a>

@@ -7,7 +7,7 @@ import About from '../../Components/About/About';
 
 const Home = () => {
     return (
-        <div>
+        <div id='home'>
             <Banner></Banner>
             <About></About>
             <Skills></Skills>

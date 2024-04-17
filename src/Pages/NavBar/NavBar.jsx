@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Navbar,
   Collapse,
@@ -16,12 +17,13 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a
+        <Link
+          to={"/"}
           href="#"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
           Home
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -43,7 +45,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#skills"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
           Skills
@@ -56,7 +58,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#projects"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
           Projects
@@ -69,7 +71,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#contact"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
           Contact

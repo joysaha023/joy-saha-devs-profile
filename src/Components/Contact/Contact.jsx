@@ -4,7 +4,7 @@ import { FaPhoneVolume, FaLocationDot, FaLinkedin, FaXTwitter, FaGithub, FaFaceb
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
       <h2 className="text-4xl my-16 font-bold text-center">
         Contact <span className="text-[#0077be]">Me</span>
       </h2>

@@ -7,7 +7,7 @@ const MyWork = () => {
   
 
   return (
-    <div className="">
+    <div id="projects" className="">
       <h2 className="text-4xl my-16 font-bold text-center">
         My <span className="text-[#0077be]">Projects</span>
       </h2>

@@ -4,7 +4,7 @@ import { CiCalendar } from "react-icons/ci";
 const ProjectCard = ({item}) => {
     const {name, srcURL, liveURL, cover, startDate, tags, summary} = item;
   return (
-    <div data-aos="flip-left" className="card w-full h-full border bg-base-100 rounded-md shadow-md">
+    <div data-aos="flip-left" data-aos-duration="1500" className="card w-full h-full border bg-base-100 rounded-md shadow-md">
       <figure className="border  rounded-md">
         <img
           src={cover.srcPath}

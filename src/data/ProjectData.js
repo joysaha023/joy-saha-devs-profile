@@ -38,7 +38,7 @@ export const projectData = [
       srcPath:
         "https://i.ibb.co/xCxfpkZ/ddd.png",
     },
-    tags: [{ name: "HTML" }, { name: "Raw CSS" }, { name: "Responsive" }],
+    tags: [{ name: "JavaScript" }, { name: "React JS" },{ name: "React Router" },  { name: "Responsive" }],
     startDate: "2023-08-06",
     summary:
       "A tiny scalar-valued autograd engine and a neural net on top of it. A TypeScript version of the scalar-valued autograd engine and a neural net on top of it. A TypeScript version of the karpathy karpathy/micrograd repo.",
@@ -53,7 +53,7 @@ export const projectData = [
       srcPath:
         "https://i.ibb.co/M5NwYyy/oio.png",
     },
-    tags: [{ name: "HTML" }, { name: "Raw CSS" }, { name: "Responsive" }],
+    tags: [{ name: "HTML" }, { name: "Raw CSS" },{ name: "JavaScript" }, { name: "Responsive" }],
     startDate: "2023-08-06",
     summary:
       "A tiny scalar-valued autograd engine and a neural net on top of it. A TypeScript version of the karpathy/micrograd repo.",

@@ -28,7 +28,7 @@ const ProjectCard = ({item}) => {
         </div>
         <p>{summary}</p>
         <div className="card-actions justify-between">
-          <a href={liveURL} target="blank"><button className="btn btn-md bg-[#0077be]">Live Demo</button></a>
+          <a href={liveURL} target="blank"><button className="btn btn-md text-white hover:text-black bg-[#0077be]">Live Demo</button></a>
           <a href={srcURL} target="blank"><button className="btn btn-outline ">Source code</button></a>
         </div>
       </div>

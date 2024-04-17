@@ -5,7 +5,7 @@ import Footer from "../Pages/Footer/Footer";
 
 const Root = () => {
   return (
-    <div>
+    <div className="lato-font">
       <div className="max-w-6xl mx-auto px-2">
         <NavBar></NavBar>
         <Home></Home>

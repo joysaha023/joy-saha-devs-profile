@@ -20,7 +20,7 @@ function NavList() {
         <Link
           to={"/"}
           href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center hover:text-[#0077be] transition-colors"
         >
           Home
         </Link>
@@ -33,7 +33,7 @@ function NavList() {
       >
         <a
           href="#about"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center hover:text-[#0077be] transition-colors"
         >
           About
         </a>
@@ -46,7 +46,7 @@ function NavList() {
       >
         <a
           href="#skills"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center hover:text-[#0077be] transition-colors"
         >
           Skills
         </a>
@@ -59,7 +59,7 @@ function NavList() {
       >
         <a
           href="#projects"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center hover:text-[#0077be] transition-colors"
         >
           Projects
         </a>
@@ -72,7 +72,7 @@ function NavList() {
       >
         <a
           href="#contact"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center hover:text-[#0077be] transition-colors"
         >
           Contact
         </a>

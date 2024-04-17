@@ -17,7 +17,7 @@ const ProjectCard = ({item}) => {
           <CiCalendar />
           <p>{startDate}</p>
         </div> */}
-        <div className=" flex my-3 gap-2">
+        <div className=" flex flex-wrap my-3 gap-2">
           {tags.map((tag) => {
             return (
               <button key={tag} className="px-2 py-1 text-[14px] bg-gray-100 rounded-md">

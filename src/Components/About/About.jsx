@@ -14,7 +14,7 @@ const About = () => {
         <div className="">
           <img
             src="https://i.ibb.co/h1fVqCg/dsd.jpg"
-            className=" w-full h-full max-w-[280px] max-h-[300px] md:max-w-[300px] rounded-md md:max-h-[400px]  border-2 border-solid border-[#0077be]"
+            className=" w-full h-full max-w-[280px] shadow-md max-h-[300px] md:max-w-[300px] rounded-md md:max-h-[400px]  border-2 border-solid border-[#0077be]"
           />
         </div>
         <div className="">

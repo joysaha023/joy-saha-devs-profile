@@ -26,7 +26,7 @@ const Banner = () => {
         <div>
           <img
             src="https://i.ibb.co/HDTkQ1b/dddd.png"
-            className="relative w-full h-full max-w-[280px] max-h-[280px] md:max-w-[400px] md:max-h-[400px] rounded-[50%] lg:mr-16 border-2 border-solid border-[#0077be]"
+            className="relative w-full h-full max-w-[280px] shadow-md max-h-[280px] md:max-w-[400px] md:max-h-[400px] rounded-[50%] lg:mr-16 border-2 border-solid border-[#0077be]"
           />
         </div>
       </div>

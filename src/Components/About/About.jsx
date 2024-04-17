@@ -6,7 +6,7 @@ const About = () => {
     
 
   return (
-    <div className="my-16">
+    <div id="about" className="my-16">
       <h2 className="text-4xl mb-5 font-bold text-center">
         About <span className="text-[#0077be]">Me</span>
       </h2>

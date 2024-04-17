@@ -11,7 +11,7 @@ const MyWork = () => {
       <h2 className="text-4xl my-16 font-bold text-center">
         My <span className="text-[#0077be]">Projects</span>
       </h2>
-       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-5 lg:gap-10 md:px-8 mt-10 lg:px-16">
+       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-5 lg:gap-10 md:px-8 mt-10 lg:px-16">
             {
                 projectData.map((item) => <ProjectCard key={item.id} item={item}></ProjectCard>)
             }

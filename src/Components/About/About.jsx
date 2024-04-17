@@ -6,11 +6,11 @@ const About = () => {
     
 
   return (
-    <div id="about" className="my-16">
-      <h2 className="text-4xl mb-5 font-bold text-center">
+    <div id="about" className="">
+      <h2 className="text-4xl my-8 lg:my-16 font-bold text-center">
         About <span className="text-[#0077be]">Me</span>
       </h2>
-      <div className="flex flex-col lg:flex-row gap-16 items-center lg:items-start px-4 justify-center">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center lg:items-start px-4 justify-center">
         <div className="">
           <img
             src="https://i.ibb.co/h1fVqCg/dsd.jpg"

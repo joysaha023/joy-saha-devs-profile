@@ -8,7 +8,7 @@ const ProjectCard = ({item}) => {
       <figure className="border  rounded-md">
         <img
           src={cover.srcPath}
-          alt="Shoes"
+          alt="image"
         />
       </figure>
       <div className="card-body">
@@ -28,8 +28,8 @@ const ProjectCard = ({item}) => {
         </div>
         <p>{summary}</p>
         <div className="card-actions justify-between">
-          <a href={liveURL} target="blank"><button className="btn btn-md text-white hover:text-black bg-[#0077be]">Live Demo</button></a>
-          <a href={srcURL} target="blank"><button className="btn btn-outline ">Source code</button></a>
+          <a href={liveURL} target="blank"><button className="btn btn-md rounded-md text-white hover:text-black bg-[#0077be]">Live Demo</button></a>
+          <a href={srcURL} target="blank"><button className="btn rounded-md btn-outline ">Source code</button></a>
         </div>
       </div>
     </div>

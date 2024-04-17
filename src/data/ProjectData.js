@@ -41,7 +41,7 @@ export const projectData = [
     tags: [{ name: "JavaScript" }, { name: "React JS" },{ name: "React Router" },  { name: "Responsive" }],
     startDate: "2023-08-06",
     summary:
-      "A tiny scalar-valued autograd engine and a neural net on top of it. A TypeScript version of the scalar-valued autograd engine and a neural net on top of it. A TypeScript version of the karpathy karpathy/micrograd repo.",
+      "The Book Store project is only for user where user can select book and track reading book and mark read book and know about writer and user can sort book to year and pages.This website have a chart.",
     
   },
   {
@@ -56,7 +56,7 @@ export const projectData = [
     tags: [{ name: "HTML" }, { name: "Raw CSS" },{ name: "JavaScript" }, { name: "Responsive" }],
     startDate: "2023-08-06",
     summary:
-      "A tiny scalar-valued autograd engine and a neural net on top of it. A TypeScript version of the karpathy/micrograd repo.",
+      "The Recipie Hub project is all about resturent where user can select food and calculate price and after the selection user can order for preparing. this website is full responsive.",
     
   },
 ];

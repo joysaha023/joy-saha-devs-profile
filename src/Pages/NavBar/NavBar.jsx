@@ -105,6 +105,7 @@ const NavBar = () => {
           className="mr-4 cursor-pointer text-xl py-1.5"
         >
           Joy <span className="text-[#0077be]">Saha</span>
+         
         </Typography>
         <div className="hidden lg:block">
           <NavList />

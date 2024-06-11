@@ -21,7 +21,7 @@ const Banner = () => {
             {text}
             </span><span className="text-[#0077be]"><Cursor></Cursor></span></p>
           <p className="text-base font-medium w-full lg:w-[500px]">{Bio.description}</p>
-          <a href="https://drive.google.com/file/d/1-kOJhpfL6-9_uPguXzwsR-0Gie2zu57S/view?usp=sharing" target="blank" rel="noopener noreferrer" download="" className="btn bg-[#0077be] text-white">Download Resume</a>
+          <a href="https://drive.google.com/file/d/1AlVXeC8iU5sOTxVrugFQDwM0iz8kOt1O/view?usp=sharing" target="blank" rel="noopener noreferrer" download="" className="btn bg-[#0077be] text-white">Download Resume</a>
         </div>
         <div>
           <img
